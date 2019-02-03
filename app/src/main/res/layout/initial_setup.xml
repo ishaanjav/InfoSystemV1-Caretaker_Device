@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/initialsetuptitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/caviardreams"
+        android:text="@string/title"
+        android:textColor="#ff6f00"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/choosetitile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/initialsetuptitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/caviardreamsitalci"
+        android:text="This device will be set up as the Caretaker Device."
+        android:textAlignment="center"
+        android:textColor="#F00"
+        android:textSize="21dp" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/infoholder"
+        android:layout_width="340sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/choosetitile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="35dp">
+
+        <RelativeLayout
+            android:id="@+id/inflaterholder"
+            android:layout_width="340sp"
+            android:layout_height="wrap_content"
+            android:background="#febaba">
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginTop="9dp"
+                android:text="Please fill in the information:"
+                android:textColor="#a10909"
+                android:textSize="21sp" />
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="#ffdd00"
+                android:ems="9"
+                android:hint="Enter your phone #"
+                android:inputType="phone"
+                android:textColor="#c66e16"
+                android:textColorHint="#da8b14"
+                android:textCursorDrawable="@null" />
+
+            <Button
+                android:id="@+id/takepicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phone"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:background="#ffffff"
+                android:text="Take a Picture"
+                android:textColor="#fb7500"
+                android:textSize="18dp"
+
+                />
+
+            <TextView
+                android:id="@+id/happiness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/takepicture"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="9dp"
+                android:backgroundTint="#ffdd00"
+                android:ems="10"
+                android:hint="Enter your full name"
+                android:inputType="textPersonName|textCapWords"
+                android:textColor="#c66e16"
+                android:textColorHint="#da8b14"
+                android:textCursorDrawable="@null"
+
+                />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#ffa200"
+                android:ems="10"
+                android:hint="Enter a username"
+                android:inputType="textFilter"
+                android:textColor="#d6700a"
+                android:textColorHint="#ffa200"
+                android:textCursorDrawable="@null" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/username"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#ff7300"
+                android:ems="10"
+                android:hint="Enter a password"
+                android:inputType="textPassword"
+                android:textColor="#c25105"
+                android:textColorHint="#ff7300"
+                android:textCursorDrawable="@null" />
+
+            <ImageView
+                android:id="@+id/toggle"
+                android:layout_width="40sp"
+                android:layout_height="40sp"
+                android:layout_below="@id/username"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@id/password"
+                android:src="@drawable/showpassword" />
+
+
+            <EditText
+                android:id="@+id/years"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/password"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#ff4000"
+                android:ems="15"
+                android:hint="How long you have been working with the resident? Give some general information about yourself."
+                android:inputType="textMultiLine"
+                android:maxLines="6"
+                android:paddingBottom="10dp"
+                android:textColor="#a72505"
+                android:textColorHint="#ff4000"
+                android:textCursorDrawable="@null" />
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <RelativeLayout
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="12dp">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#e0a3a3"
+                android:paddingBottom="9dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="8dp"
+                android:text="Hello!"
+                android:textColor="#a60303"
+
+                android:textSize="32dp" />
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+    <!--MAKE THE FONT WIDER OVER HERE-->
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Welcome to the Information\n                 System App"
+        android:textColor="#d7a42b"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100sp"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="3dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/colorchange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fcbc78"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/infoimage" />
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+    <!--This is the part that should fade in after a while. Hello should also fade in as well. (Hello is above)-->
+    <android.support.v7.widget.CardView
+        android:id="@+id/holder"
+        android:layout_width="350dp"
+        android:layout_height="240dp"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="#fefefe"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="4dp">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/changeback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="25dp">
+
+            <TextView
+                android:id="@+id/aboutapp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="7dp"
+                android:text="@string/about"
+                android:textColor="#ffc400"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/appdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/aboutapp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="48dp"
+                android:text="      The purpose of this app is to serve as an information system for senior citizens with disabilities and diseases, particularly Alzheimer's. This app functions by requiring visitors to create an account, entering information about their relation to the resident as well as a description of themselves in addition to other details."
+                android:textAlignment="textStart"
+                android:textSize="17dp" />
+
+        </android.support.v7.widget.CardView>
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:background="#ffffff"
+
+        app:cardCornerRadius="8dp"
+        app:cardElevation="5dp">
+
+        <Button
+            android:id="@+id/InitialSetup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F00"
+            android:paddingBottom="7dp"
+
+            android:paddingLeft="18dp"
+            android:paddingRight="19dp"
+            android:paddingTop="6dp"
+            android:text="Continue to Setup"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+
+            />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

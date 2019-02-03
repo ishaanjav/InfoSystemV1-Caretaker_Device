@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/chooseimage"
+        android:orderInCategory="100"
+        android:icon="@drawable/chooseimage"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/graph"
+        android:orderInCategory="100"
+        android:icon="@drawable/bargraph"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+</menu>

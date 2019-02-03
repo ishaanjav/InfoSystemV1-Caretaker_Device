@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/menubar</item>
+        <item name="colorPrimaryDark">@color/lo25</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/container</item>
+        <item name="colorPrimaryDark">@color/mainbar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeCongratulations" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/congratulationslight</item>
+        <item name="colorPrimaryDark">@color/congratulationsdark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemeInitial" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/lightred</item>
+        <item name="colorPrimaryDark">@color/darkred</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RegText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#2260b7</item>
+
+    </style>
+
+    <style name="Error" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">#F00</item>
+
+    </style>
+
+    <style name="CreateAccount" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:textSize">23sp</item>
+        <item name="android:textColor">#347f02</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:colorAccent">#d2b42f</item>
+        <item name="android:textColor">#d40e0e</item>
+        <item name="android:textColorPrimary">#fd6e00</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="initialsetup" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#ffa200</item>
+        <item name="colorPrimaryDark">#cd7304</item>
+        <item name="colorAccent">#ff6200</item>
+
+    </style>
+
+    <style name="userinfo" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_marginLeft">37dp</item>
+        <item name="android:textColorHint">#38d50d</item>
+        <item name="android:backgroundTint">#088f45</item>
+        <item name="android:textColor">#38d50d</item>
+        <item name="android:textColorHighlight">#088f45</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#ffa200</item>
+        <item name="colorPrimaryDark">#cd7304</item>
+        <item name="colorAccent">#ff6200</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+</resources>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".EventsLog"
+    android:background="#fdf9bd"
+    tools:showIn="@layout/app_bar_events_log">
+
+    <TextView
+        android:id="@+id/filtertitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/caviarbold"
+        android:text="@string/filter"
+        android:textColor="#b35c00"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/eventtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/filtertitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/caviardreams"
+        android:text="Event Type:"
+        android:textColor="#ff8400"
+        android:textSize="20dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/eventtype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filtertitle"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@id/eventtext"
+        android:entries="@array/typeofevents"></Spinner>
+
+    <TextView
+        android:id="@+id/specifiertext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventtext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/caviardreams"
+        android:text="Search By:"
+        android:textColor="#ff8400"
+        android:textSize="20dp"
+
+        />
+
+    <Spinner
+        android:id="@+id/specifiertype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eventtext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_toRightOf="@id/specifiertext"
+        android:entries="@array/typeofspecifiers"></Spinner>
+
+    <EditText
+        android:id="@+id/specifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/specifiertype"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#cd9a00"
+        android:ems="10"
+        android:fontFamily="@font/rsemibold"
+        android:hint="Search For:"
+        android:inputType="textCapWords"
+        android:textColor="#cd9a00"
+        android:textColorHighlight="#ffc20c"
+        android:textColorHint="#ec9601"
+        android:textCursorDrawable="@null"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/specifiertype"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@id/specifier"
+        android:background="#ffbf00"
+        android:fontFamily="@font/ralewaybold"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:text="Apply"
+        android:textColor="#ffffff"
+        android:textSize="22dp" />
+
+    <RelativeLayout
+        android:id="@+id/nomatchfound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/apply"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/pacifico"
+            android:lineSpacingExtra="-15dp"
+            android:text="No Matches\nFound!"
+            android:textAlignment="center"
+            android:textColor="#ca8000"
+            android:textSize="33dp" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="120dp"
+            android:src="@drawable/confused" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/specifier"
+
+        android:layout_marginTop="-5dp">
+
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:divider="#f1af46"
+            android:dividerHeight="9dp"
+
+            />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

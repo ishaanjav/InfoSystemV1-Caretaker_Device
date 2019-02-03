@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Info System V1</string>
+    <string name="logintitle"><u><b>Login Page</b></u></string>
+    <string name="otherlogin"><b>Sign In For Workers</b></string>
+    <string name="successfull"><b>Edit Your Account Info!</b></string>
+    <string name="filter"><u>Filters</u></string>
+    <string-array name="typeofevents">
+        <item>All</item>
+        <item>All Logins</item>
+        <item>All Logouts</item>
+        <item>Pending Requests</item>
+        <item>Account Approvals</item>
+        <item>Deleted/Declined</item>
+        <item>Failed Logins</item>
+        <item>Updated</item>
+    </string-array>
+    <string-array name="typeofspecifiers">
+        <item>All</item>
+        <item>Name</item>
+        <item>Username</item>
+        <item>Phone Number</item>
+        <item>Email Address</item>
+        <item>Relation</item>
+    </string-array>
+    <string name="frequency"><u>Frequency Analysis</u></string>
+    <string-array name="picturechoices">
+        <item>Launch Camera</item>
+        <item>Choose Picture From Gallery</item>
+    </string-array>
+
+    <string-array name="country_arrays">
+        <item>Family</item>
+        <item>Friend</item>
+        <item>Business</item>
+        <item>Other</item>
+    </string-array>
+    <string name="contacts"><u>Contact Info</u></string>
+    <string name="welcome"><b>Welcome to the Information\n\tSystem App</b></string>
+    <string name="chooseone">Choose one from below</string>
+    <string name="about"><u>About This App</u></string>
+    <string name="title"><u><b>Initial Setup</b></u></string>
+    <string name="choose">Choose one of the below</string>
+    <string name="congratulations"><u><b>Congratulations!</b></u></string>
+    <string-array name="device">
+        <item>Visitor Device</item>
+        <item>Caretaker Device</item>
+        <item>Resident Device</item>
+
+    </string-array>
+    <string-array name="servicetype">
+        <item>*What is Your Service?</item>
+        <item>House Maintenance</item>
+        <item>Lawn Maintenance</item>
+        <item>Delivery</item>
+        <item>Other</item>
+
+    </string-array>
+    <string name="service">What service are you providing?</string>
+    <string name="title_activity_caretaker_account">CaretakerAccount</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_events_log">EventsLog</string>
+    <string name="title_activity_real_settings">RealSettings</string>
+    <string name="title_activity_pending_requests">PendingRequests</string>
+    <string name="title_activity_existing_users">ExistingUsers</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_gps">GPS</string>
+    <string name="title_activity_emotions_analyzer">Emotions Analyzer</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorcool">#6acdfb</color>
+    <color name="green">#2ea809</color>
+    <color name= "low1">#ff0000</color>
+    <color name="low2">#ffa600</color>
+    <color name="low3">#f2ff00</color>
+    <color name="low4">#6fff00</color>
+    <color name = "lo25">#0e8508</color>
+    <color name = "low10">#0e932d</color>
+    <color name="menubar">#1caa30</color>
+    <color name = "fade">#e7bebe</color>
+    <color name = "darkred">#932b0e</color>
+    <color name = "lightred">#F00</color>
+    <color name = "purered">#F00</color>
+    <color name = "READMORE">#0b91df</color>
+    <color name="lightred3">#fd7575</color>
+    <color name = "lightorange">#fcbc78</color>
+    <color name = "cursorcolor">#ffa600</color>
+    <color name = "lightred2">#f2e9a4</color>
+    <color name = "congratulationslight">#ffa600</color>
+    <color name = "congratulationsdark">#de7003</color>
+    <color name = "mainbar">#529cf0</color>
+    <color name = "container">#6abcf6</color>
+    <color name = "purple">#7154ff</color>
+    <color name = "purplelight">#8c74ff</color>
+    <color name = "darkblue">#2a8aff</color>
+    <color name="darkpurple">#006aff</color>
+    <color name="faintorange">#fee6e6</color>
+    <color name="faintpurple">#dfd7fb</color>
+    <color name="faintgreen">#cafdd0</color>
+    <color name="faintblue">#cde6ff</color>
+    <color name="faintred">#fde5c9</color>
+    <color name="darkyellow">#ce9e01</color>
+    <color name="yellow">#ffd500</color>
+    <color name="faintyellow">#fdf8c9</color>
+    <color name="darkgrey">#5d5d5c</color>
+    <color name="grey">#7a7a7a</color>
+    <color name="faintgrey">#e0e0e0</color>
+    <color name="sad">#0051c3</color>
+    <color name="angry">#c30000</color>
+    <color name="fear">#5530fb</color>
+    <color name="disgust">#129501</color>
+    <color name="happy">#ffd500</color>
+    <color name="surprise">#ee7f00</color>
+    <color name="neutral">#34373c</color>
+    <color name="lightpink">#fde1ff</color>
+    <color name="pink">#a300ac</color>
+    <color name="mediumpink">#f42efe</color>
+    <color name = "lightbrown">#3e7d5632</color>
+    <color name="darkbrown">#693f18</color>
+    <color name="brown">#7d5632</color>
+
+
+</resources>

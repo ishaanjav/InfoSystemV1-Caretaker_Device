@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CaretakerAccount"
+    tools:showIn="@layout/app_bar_caretaker_account">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fad198">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/rsemibold"
+                android:padding="10dp"
+                android:text="Home Page"
+                android:textSize="32dp" />
+
+        </RelativeLayout>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/carder"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rel"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            app:cardBackgroundColor="#ffe4ad"
+
+            app:cardCornerRadius="25dp"
+            app:cardElevation="5dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/welcome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/caviarbold"
+                    android:text="Get Started!"
+                    android:textColor="#a05704"
+                    android:textSize="25sp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/explore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/welcome"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="Explore the following pages:"
+                    android:textColor="#7e4d04"
+                    android:textSize="22sp" />
+
+                <TextView
+                    android:id="@+id/pendingpage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/explore"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="17dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="Pending Requests:"
+                    android:textColor="#79c1fc"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/pendingdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/explore"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="19dp"
+
+                    android:fontFamily="@font/caviardreams"
+                    android:text="                            Over here you can view the accounts of visitors who have yet to receive your approval."
+                    android:textColor="#32c1f9"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/existingpage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pendingdescription"
+                    android:layout_marginLeft="10sp"
+
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="Existing Users:"
+                    android:textColor="#fc3b01"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <TextView
+                    android:id="@+id/existingdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/pendingdescription"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="                      In this page you can view the account information about your visitors."
+                    android:textColor="#f96a32"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/logpage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/existingdescription"
+
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="Log of Events:"
+                    android:textColor="#e6a502"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/logdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/existingdescription"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="                      Here, you can view information about all visitor sign-ins."
+                    android:textColor="#f4b702"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/gpspage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/logdescription"
+
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="GPS Tracking:"
+                    android:textColor="#dd8a0d"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/gpsdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/logdescription"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingBottom="7dp"
+                    android:text="                      Has the patient gotten lost? Do you know where they are? Use this page to locate them."
+                    android:textColor="#ff9500"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/emotionspage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gpsdescription"
+
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="Emotions Analyzer:"
+                    android:textColor="#008cff"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/emotionssdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/gpsdescription"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingBottom="7dp"
+                    android:text="                             Analyze the patient's emotions by inputting a picture. View a record of all their emotions in a list or graph."
+                    android:textColor="#3299f9"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/aboutapppage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/emotionssdescription"
+
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="About This App:"
+                    android:textColor="#039a36"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/aboutdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/emotionssdescription"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="                         In here, you can read about the purpose of this app."
+                    android:textColor="#02c827"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/settingspage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutdescription"
+
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:text="Settings:"
+                    android:textColor="#6b0ddd"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/settingsdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/aboutdescription"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/caviardreams"
+                    android:paddingBottom="7dp"
+                    android:text="              In here, you can edit your own account info."
+                    android:textColor="#782ef8"
+                    android:textSize="18sp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <RelativeLayout
+            android:id="@+id/inflaterholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/carder"
+            android:layout_marginTop="8dp"
+            android:background="#fed89a">
+
+            <TextView
+                android:id="@+id/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/rsemibold"
+                android:text="Latest Login"
+                android:textColor="#743a03"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/title2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/regular"
+                android:text="Name: "
+                android:textColor="#e68404"
+                android:textSize="20sp"
+
+                />
+
+            <TextView
+                android:id="@+id/relation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/title2"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="11dp"
+                android:fontFamily="@font/regular"
+                android:text="Relation: "
+                android:textColor="#e68404"
+                android:textSize="20sp"
+
+
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/name"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:text="Time: "
+
+                android:textColor="#e68404"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/regular"
+                android:text="Time: "
+
+                android:textColor="#e68404"
+                android:textSize="19sp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contact"
+                android:layout_marginTop="5dp"
+                android:background="#5f3510"
+                android:text="Description"
+                android:textColor="#ffffff"
+                android:textSize="19sp"
+
+
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>
+

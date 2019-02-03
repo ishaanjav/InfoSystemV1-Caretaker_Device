@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="560dp">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/picturecard"
+        android:layout_width="210sp"
+        android:layout_height="210sp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        app:cardBackgroundColor="#55a7fe"
+        app:cardCornerRadius="25dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/userpicture"
+                android:layout_width="210dp"
+                android:layout_height="210sp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/oneuser" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="359dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/picturecard"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        app:cardBackgroundColor="#b7e0ff"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="7dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8dccfd">
+
+                <TextView
+                    android:id="@+id/accountname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="9dp"
+                    android:fontFamily="@font/regular"
+                    android:paddingBottom="6dp"
+                    android:textColor="#0080ff"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/titleusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/rlight"
+                android:text="Username:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accountusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rel"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@id/titleusername"
+                android:fontFamily="@font/rlight"
+                android:textColor="#1695fc"
+                android:textSize="19sp"
+
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/rel"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="19dp"
+                app:cardCornerRadius="10dp">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#008cff"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="9dp"
+                    android:paddingRight="9dp"
+                    android:paddingTop="4dp"
+                    android:text="Click here\nfor details"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+
+
+                    />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/accountpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleusername"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/titlepassword"
+                android:fontFamily="@font/rlight"
+                android:textColor="#1695fc"
+                android:textSize="19sp"
+
+                />
+
+            <TextView
+                android:id="@+id/titlepassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleusername"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/rlight"
+                android:text="Password:  "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/bar"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@id/titlepassword"
+                android:layout_marginTop="15dp"
+                android:background="#007bff">
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/contactstitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+
+                android:fontFamily="@font/regular"
+                android:text="Contact Info"
+                android:textColor="#0073ff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/titlephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactstitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/rlight"
+                android:text="Phone:"
+
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titleemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titlephone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/rlight"
+                android:text="Email:"
+                android:textSize="20dp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/accountphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactstitle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14sp"
+                android:layout_toRightOf="@id/titlephone"
+                android:fontFamily="@font/rlight"
+                android:textColor="#1695fc"
+                android:textSize="19sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/phoneimage"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/contactstitle"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14sp"
+                android:src="@drawable/phonecall" />
+
+
+            <TextView
+                android:id="@+id/accountemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountphone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14sp"
+                android:layout_toRightOf="@id/titleemail"
+                android:fontFamily="@font/rlight"
+                android:textColor="#1695fc"
+                android:textSize="19sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/emailimage"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/accountphone"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14sp"
+                android:src="@drawable/email" />
+
+
+            <Button
+                android:id="@+id/approve"
+                android:layout_width="180dp"
+                android:layout_height="42dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginBottom="-5dp"
+                android:layout_marginLeft="-10dp"
+                android:background="#8dccfd"
+                android:paddingBottom="6dp"
+
+                android:text="Approve"
+                android:textColor="#0080ff"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/decline"
+                android:layout_width="182dp"
+                android:layout_height="42dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="-5dp"
+                android:layout_marginRight="-10dp"
+                android:background="#0080ff"
+                android:paddingBottom="6dp"
+                android:paddingRight="5dp"
+                android:text="Decline"
+                android:textColor="#8dccfd"
+                android:textSize="20dp"
+
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

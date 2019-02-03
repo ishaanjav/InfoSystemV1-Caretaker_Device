@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#fed89a">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/rsemibold"
+        android:text="Latest Login"
+        android:textColor="#743a03"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/regular"
+        android:text="Name: "
+        android:textColor="#e68404"
+        android:textSize="20sp"
+
+        />
+
+    <TextView
+        android:id="@+id/relation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/title"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/regular"
+        android:text="Relation: "
+        android:textColor="#e68404"
+        android:textSize="20sp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/regular"
+        android:text="Time: "
+
+        android:textColor="#e68404"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/regular"
+        android:text="Time: "
+
+        android:textColor="#e68404"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#5f3510"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Description"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+
+
+        />
+
+
+
+</RelativeLayout>

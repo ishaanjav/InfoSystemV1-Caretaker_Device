@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id = "@+id/rel"
+    android:background="#fff0d7"
+    android:layout_height="120dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:fontFamily="@font/rsemibold"
+        android:layout_marginTop="4sp"
+        android:layout_marginLeft="6sp"
+        android:id = "@+id/description"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="7sp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/description"
+        android:layout_marginTop="6dp"
+        android:textColor="#5c3a06"
+        android:lineSpacingExtra="8sp"
+        android:fontFamily="@font/caviardreamsitalci"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="165sp"
+
+        android:fontFamily="@font/caviarbold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="165sp"
+        android:layout_below="@id/name"
+        android:fontFamily="@font/caviardreams"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7sp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="165sp"
+        android:layout_below="@id/phone"
+        android:fontFamily="@font/caviardreams"
+        android:textSize="17sp"
+        />
+
+
+
+</RelativeLayout>

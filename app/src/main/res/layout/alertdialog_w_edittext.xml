@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290sp"
+    android:layout_height="560dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:fontFamily="@font/caviardreams"
+        android:text="Before you continue..."
+        android:textAlignment="center"
+        android:textColor="#ff6600"
+        android:textSize="28sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="4dp"
+        android:background="#ffb700"></RelativeLayout>
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/caviardreamsitalci"
+        android:text="Some Additional Information"
+        android:textAlignment="center"
+        android:textColor="#dd3005"
+        android:textSize="21sp"
+
+        />
+
+    <TextView
+        android:id="@+id/errorhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/rlight"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:text="1) Since this is your personal device, you will remain signed in to the app unless you sign out."
+        android:textAlignment="center"
+        android:textColor="#ff9500"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/errorhere"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:fontFamily="@font/rlight"
+        android:text="2) When a new visitor creates an account, it will be your responsibility to verify their account information and either decline their request or approve it."
+        android:textAlignment="center"
+        android:textColor="#ff7700"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:fontFamily="@font/rlight"
+        android:text="3) You will also have the ability to view a log of visitor sign-ins as well as the time and information about that person."
+        android:textAlignment="center"
+        android:textColor="#ff6200"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/h"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/rlight"
+        android:text="4) As long as you have a stable Wi-Fi connection, you should receive notifications nearly instantaneously."
+        android:textAlignment="center"
+        android:textColor="#f00"
+        android:textSize="18dp" />
+
+
+    <Button
+        android:id="@+id/Enter"
+        android:layout_width="145sp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#a41f04"
+        android:text="Continue"
+        android:textAlignment="center"
+        android:textColor="#fd9c7c"
+        android:textSize="21sp"
+
+        />
+
+    <Button
+        android:id="@+id/cancel_action"
+        android:layout_width="145sp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="#fd9c7c"
+        android:text="Cancel"
+        android:textAlignment="center"
+        android:textColor="#a41f04"
+        android:textSize="21sp"
+
+        />
+</RelativeLayout>

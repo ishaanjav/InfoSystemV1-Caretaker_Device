@@ -1,0 +1,55 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#ffa200</item>
+        <item name="colorPrimaryDark">#cd7304</item>
+        <item name="colorAccent">#ff6200</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme.NoActionBar2">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#ffc800</item>
+        <item name="colorPrimaryDark">#ffa200</item>
+        <item name="colorAccent">#ff6200</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme.NoActionBar3">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#9d64ff</item>
+        <item name="colorPrimaryDark">#7947ed</item>
+        <item name="colorAccent">#ff6200</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="AppTheme.NoActionBar4">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#64c4ff</item>
+        <item name="colorPrimaryDark">#1aa2fd</item>
+        <item name="colorAccent">#ff6200</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar6">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#649dff</item>
+        <item name="colorPrimaryDark">#1a84fd</item>
+        <item name="colorAccent">#ff6200</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar5">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">#ff8664</item>
+        <item name="colorPrimaryDark">#f23f03</item>
+        <item name="colorAccent">#ff6200</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+</resources>

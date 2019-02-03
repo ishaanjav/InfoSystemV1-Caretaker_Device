@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="535dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/picturecard"
+        android:layout_width="160sp"
+        android:layout_height="160sp"
+        android:paddingTop="5dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="25dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#fd7848">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150sp"
+                android:id = "@+id/userpicture"
+                android:layout_centerInParent="true"
+                android:src= "@drawable/oneuser"
+                />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="359dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/picturecard"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        app:cardBackgroundColor="#fed3d3"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="7dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fdab8d">
+
+                <TextView
+                    android:id="@+id/accountname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="9dp"
+                    android:fontFamily="@font/regular"
+                    android:paddingBottom="6dp"
+                    android:textColor="#ff3300"
+                    android:textSize="25dp" />
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/titleusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rel"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/rlight"
+                android:text="Username:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/accountusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rel"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="16dp"
+                android:layout_toRightOf="@id/titleusername"
+                android:fontFamily="@font/rlight"
+                android:textColor="#ed5c34"
+                android:textSize="19sp"
+
+                />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/infocard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/rel"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="19dp"
+                app:cardCornerRadius="10dp">
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#f55516"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="9dp"
+                    android:paddingRight="9dp"
+                    android:paddingTop="4dp"
+                    android:text="Click here\nfor details"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp"
+
+
+                    />
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/accountpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleusername"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_toRightOf="@id/titlepassword"
+                android:fontFamily="@font/rlight"
+                android:textColor="#ed5c34"
+                android:textSize="19sp"
+
+                />
+
+            <TextView
+                android:id="@+id/titlepassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titleusername"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+
+                android:fontFamily="@font/rlight"
+                android:text="Password:  "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:id="@+id/bar"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_below="@id/titlepassword"
+                android:layout_marginTop="15dp"
+                android:background="#9f1a02">
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/contactstitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="9dp"
+
+                android:fontFamily="@font/regular"
+                android:text="Contact Info"
+                android:textColor="#8f1d01"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/titlephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactstitle"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/rlight"
+                android:text="Phone:"
+                android:textColor="#000000"
+
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/titleemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titlephone"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/rlight"
+                android:text="Email:"
+                android:textColor="#000000"
+                android:textSize="20dp"
+
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/accountphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/contactstitle"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14sp"
+                android:layout_toRightOf="@id/titlephone"
+                android:fontFamily="@font/rlight"
+                android:textColor="#ed5c34"
+                android:textSize="19sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/phoneimage"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/contactstitle"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14sp"
+                android:src="@drawable/phonecall" />
+
+            <TextView
+                android:id="@+id/accountemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountphone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14sp"
+                android:layout_toRightOf="@id/titleemail"
+                android:fontFamily="@font/rlight"
+                android:textColor="#ed5c34"
+                android:textSize="19sp"
+
+                />
+
+            <ImageView
+                android:id="@+id/emailimage"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/accountphone"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="14sp"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/titletime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/accountemail"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/rlight"
+                android:text="Account approved on:"
+                android:textSize="18dp"
+
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/realtime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/titletime"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/rlight"
+                android:textColor="#ed5c34"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/decline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/accountemail"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#fb6322"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="Delete"
+                android:textColor="#fdc4ac"
+                android:textSize="20dp"
+
+                />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

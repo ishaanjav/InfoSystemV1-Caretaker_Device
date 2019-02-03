@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RealSettings"
+    tools:showIn="@layout/app_bar_real_settings">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Your Account Info"
+        android:textColor="#7741ff"
+        android:fontFamily="@font/caviardreams"
+        android:textStyle="bold"
+        android:id = "@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7sp"
+        android:textSize="27sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"
+        android:text="Name: "
+        android:layout_marginLeft="15dp"
+        android:id = "@+id/textname"
+        android:textColor="#4000ff"
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/editname"
+        android:layout_toRightOf="@id/textname"
+        android:backgroundTint="#4000ff"
+        android:textColorHint="#6648ff"
+        android:textColorHighlight="#6648ff"
+        android:textColor="#6648ff"
+        android:textCursorDrawable="@null"
+        android:layout_marginLeft="20sp"
+        android:layout_below="@id/title"
+        android:ems="10"
+        android:layout_marginTop="20sp"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textname"
+        android:textSize="20sp"
+        android:text="Username: "
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="15dp"
+        android:id = "@+id/textusername"
+        android:textColor="#4000ff"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textname"
+        android:id = "@+id/usernameedit"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="#4000ff"
+        android:textColorHint="#6648ff"
+        android:layout_toRightOf="@+id/textusername"
+        android:textColorHighlight="#6648ff"
+        android:textColor="#6648ff"
+        android:textCursorDrawable="@null"
+        android:layout_marginLeft="20sp"
+        android:ems="8"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textusername"
+        android:textSize="20sp"
+        android:text="Password: "
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="15dp"
+        android:id = "@+id/textpassword"
+        android:textColor="#4000ff"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textusername"
+        android:id = "@+id/passwordedit"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@id/textpassword"
+        android:backgroundTint="#4000ff"
+        android:textColorHint="#6648ff"
+        android:textColorHighlight="#6648ff"
+        android:textColor="#6648ff"
+        android:textCursorDrawable="@null"
+        android:layout_marginLeft="20sp"
+        android:ems="9"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textpassword"
+        android:textSize="20sp"
+        android:text="Phone Number: "
+        android:layout_marginTop="21dp"
+        android:layout_marginLeft="15dp"
+        android:id = "@+id/textphone"
+        android:textColor="#4000ff"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textpassword"
+        android:id = "@+id/phoneedit"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="#4000ff"
+        android:textColorHint="#6648ff"
+        android:layout_toRightOf="@id/textphone"
+        android:textColorHighlight="#6648ff"
+        android:textColor="#6648ff"
+        android:textCursorDrawable="@null"
+        android:layout_marginLeft="17sp"
+        android:ems="8"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textphone"
+        android:textSize="20sp"
+        android:text="Relation: "
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:id = "@+id/textdescription"
+        android:textColor="#4000ff"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textdescription"
+        android:id = "@+id/editdescription"
+        android:layout_marginTop="-8dp"
+        android:backgroundTint="#4000ff"
+        android:textColorHint="#6648ff"
+        android:textColorHighlight="#6648ff"
+        android:textColor="#6648ff"
+        android:inputType="textMultiLine"
+        android:textCursorDrawable="@null"
+        android:layout_marginLeft="20sp"
+        android:ems="15"
+        android:textSize="18sp"
+        />
+
+
+
+</RelativeLayout>

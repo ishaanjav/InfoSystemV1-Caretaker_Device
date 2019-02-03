@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Your Actions">
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/home2"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_requests"
+                    android:icon="@drawable/approved"
+                    android:title="Pending Requests" />
+                <item
+                    android:id="@+id/nav_users"
+                    android:icon="@drawable/multiusers"
+                    android:title="Existing Users" />
+                <item
+                    android:id="@+id/nav_gps"
+                    android:icon="@drawable/gps"
+                    android:title="GPS" />
+                <item
+                    android:id="@+id/nav_events"
+                    android:icon="@drawable/eventslog"
+                    android:title="Log of Events" />
+                <item
+                    android:id="@+id/emotions"
+                    android:icon="@drawable/emotions"
+                    android:title="Emotions Analyzer" />
+                <!--   <item
+                       android:id="@+id/nav_manage"
+                       android:icon="@drawable/ic_menu_manage"
+                       android:title="Tools" />-->
+
+            </menu>
+        </item>
+
+    </group>
+
+    <item
+        android:icon="@drawable/settingsicon2"
+        android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutapp"
+                android:icon="@drawable/helpicon"
+                android:title="About This App" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/settingsicon"
+                android:title="Account Info" />
+            <!-- <item
+                 android:id="@+id/nav_send"
+                 android:icon="@drawable/ic_menu_send"
+                 android:title="Send" />-->
+        </menu>
+    </item>
+
+</menu>

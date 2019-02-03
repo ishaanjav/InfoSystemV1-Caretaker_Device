@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutApp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/remedium"
+        android:text="@string/about"
+        android:textColor="#109f1a"
+        android:textSize="27dp"
+
+        />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="30dp"
+        android:id = "@+id/cardView"
+        android:layout_marginTop="20sp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:id = "@+id/card"
+            app:cardCornerRadius="20dp"
+
+            android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="8dp"
+            android:text="         The purpose of this app is to serve as an information system for senior citizens with disabilities and diseases, particularly Alzheimer's. This app functions by requiring visitors to create an account by entering information about their relation to the resident as well as a description of themselves in addition to other details. Once the account has been approved by the caretaker of the resident, visitors can use their account to sign in to the Visitor Device positioned near the front door of the house.\n\n          When a visitor signs in, the resident and caretaker will get notified of their arrival and they will also get the information about the visitor, helping the resident with Alzheimer's remember and know who who is visiting them. Furthermore, the caretaker can use this app to monitor the visits as well as ensure that the resident has not left the house. Essentially, this app can ensure the safety of the resident as well as inform them about who is visiting. It also gives the caretaker the ability to make sure that the visitors entering the house are safe."
+            android:textAlignment="textStart"
+            android:layout_marginBottom="7dp"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+
+            />
+        </android.support.v7.widget.CardView>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id = "@+id/thanks"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="7dp"
+        android:paddingTop = "7dp"
+        android:textSize="18dp"
+        android:text="Thank you for using this app."
+        android:textAlignment="center"
+        android:background="#8ff42a"
+        android:textColor="#099a0c"
+
+
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
