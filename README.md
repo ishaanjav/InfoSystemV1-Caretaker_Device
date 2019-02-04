@@ -6,6 +6,9 @@
 Rather than just providing information about visitors to the patient, the patient's caretaker will also receive useful information through this app. The system not only helps the patient better *understand* who is visiting them, but also keeps a record of information for their caretaker.
 
 -----
+
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Full%20App%20Demo.mp4" width="220">
+
 # Usage
 
 The app has multiple pages that serve various purposes. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the app's pages:
