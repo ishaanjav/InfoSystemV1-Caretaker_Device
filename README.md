@@ -83,15 +83,53 @@ Where applicable, the caretaker can tap on a row to view the details of that per
 ## Emotions Analyzer
 Another important page is the Emotions Analyzer page. On this page, the caretaker can view pictures of the resident, the time they were taken, and the emotion analysis for each picture. This information is displayed in a `ListView`. From this, the caretaker can study what the app analyzed to understand how the resident is feeling over a period of time. *It is recommended that at least 5 pictures are taken per day to build up a record of analyzations.*
 
-From the Emotions Analyzer page, the caretaker can tap on the bar graph icon in the top `MenuActionBar` to view a bar chart containing the frequencies of emotions. This is especially useful if the caretaker has taken a lot of pictures and wants to obtain a generalization from the collected data. 
+From the Emotions Analyzer page, the caretaker can tap on the bar graph icon in the top `MenuActionBar` to view a bar chart containing the frequencies of emotions. This is especially useful if the caretaker has taken a lot of pictures and wants to obtain a generalization from the collected data.
+
+<br/>
 
 -----
 # Setup
-This app makes use of the following software *(a * means that this is something you will have to get your own key for)*:
+This app makes use of the following software *(a '' means that this is something you will have to get your own key for)*:
 
 - Firebase: Reading from Firebase Realtime Database and Firebase Storage to **get information for multiple pages** such as Events Log, Pending Requests, Existing Users, Emotions Analyzer, and more.
-- * Microsoft Face API: For doing the **emotion analysis**. *I have a repository for a [Face Analyzer app](https://github.com/ishaanjav/Face_Analyzer) that does emotion analysis and more. You can check it out [here](https://github.com/ishaanjav/Face_Analyzer)*.
-- * Google Cloud Platform: For the **Google Maps API Key** which is used to display a Google Maps View in the GPS page of the app for tracking the resident. 
+- ''Microsoft Face API: For doing the **emotion analysis**. *I have a repository for a [Face Analyzer app](https://github.com/ishaanjav/Face_Analyzer) that does emotion analysis and more. You can check it out [here](https://github.com/ishaanjav/Face_Analyzer)*.
+- ''Google Cloud Platform: For the **Google Maps API Key** which is used to display a Google Maps View in the GPS page of the app for tracking the resident. 
 
+Of the 3 listed above, you will have to get your own keys for the [**Microsoft Face API**](#microsoft-face-api) and the [**Google Maps API**](#google-maps-api). Do not worry however, since you only have to change 2 lines of code and all the instructions can be found below. **First start with cloning this repository and opening it in Android Studio. Then continue below:**
+
+## Microsoft Face API
+### Making the Azure Account
+In order to run the face dectection and analysis, you must get an API Subscription Key from the Azure Portal. [This page](https://azure.microsoft.com/en-us/services/cognitive-services/face/) by Microsoft provides the features and capabilities of the Face API. **You can create a free Azure account that doesn't expire at [this link here](https://azure.microsoft.com/en-us/try/cognitive-services/?api=face-api) by clicking on the "Get API Key" button and choosing the option to create an Azure account**. 
+### Getting the Face API Key from Azure Portal
+Once you have created your account, head to the [Azure Portal](https://portal.azure.com/#home). Follow these steps:
+1. Click on **"Create a resource"** on the left side of the portal.
+2. Underneath **"Azure Marketplace"**, click on the **"AI + Machine Learning"** section. 
+3. Now, under **"Featured"** you should see **"Face"**. Click on that.
+4. You should now be at [this page](https://portal.azure.com/#create/Microsoft.CognitiveServicesFace). **Fill in the required information and press "Create" when done**.
+5. Now, click on **"All resources"** on the left hand side of the Portal.
+6. Click on the **name you gave the API**.
+7. Underneath **"Resource Management"**, click on **"Manage Keys"**.
+
+<p align="center">
+  <img width="900" src="https://github.com/ishaanjav/Face_Analyzer/blob/master/Azure-FaceAPI%20Key.PNG">
+  <td>Hi</td>
+</p>
+
+You should now be able to see two different subscription keys that you can use. Follow the additional instructions to see how to use the API Key in the app.
+### Using the API Key in the App
+**You only need to replace one line of code in [`TakePicture.java`](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/app/src/main/java/com/example/anany/caretakerdevice/TakePicture.java)** since this is where the processing for emotions takes place. 
+
+**On line 93 you should see the following line:
+    
+    faceServiceClient = new FaceServiceRestClient("<YOUR API ENDPOINT HERE>", "<YOUR API KEY HERE>");
+Replace `<YOUR API SUBSCRIPTION KEY>` with one of your 2 keys from the [Azure Portal](https://portal.azure.com/#home). *(If you haven't gotten your API Key yet, read [this section](#making-the-azure-account))*. `<YOUR ENDPOINT HERE>` should be replaced with one of the following examples from [this API Documentation link](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236). The format should be similar to: 
+  
+    "https://<LOCATION>/face/v1.0"
+  
+where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive.microsoft.com`.
+
+**That covers using the Microsoft Face API Key. Now, go to the [Google Maps API](#google-maps-api) section to get the API for Google Maps.**
+
+## Google Maps API
 
 
