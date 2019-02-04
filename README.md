@@ -7,7 +7,7 @@ Rather than just providing information about visitors to the patient, the patien
 
 -----
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Full%20App%20Demo.mp4" width="220">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Full%20App%20Demo.gif" width="250" align ="right">
 
 # Usage
 
@@ -24,6 +24,8 @@ The app has multiple pages that serve various purposes. The process of [setting 
 - **GPS** for tracking the resident.
 - **Account Info** for updating account information.
 - **About This App**.
+
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Usage%20Demo.gif" width="250" align="right">
 
 ## Features of this App
 Features and purposes of this app include, but are not limited to:
