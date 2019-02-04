@@ -5,6 +5,8 @@
 
 Rather than just providing information about visitors to the patient, the patient's caretaker will also receive useful information through this app. The system not only helps the patient better *understand* who is visiting them, but also keeps a record of information for their caretaker.
 
+###### Please note that this is not meant to be a stand-alone app and is meant to be used alongside the [Visitor Device App](https://github.com/ishaanjav/InfoSystemV1-Visitor_Device) and [Resident App](https://github.com/ishaanjav/InfoSystemV1-Resident_Device) to make up the information system.
+
 -----
 
 <img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Existing%20Users.png" height="450" align ="right">
@@ -91,9 +93,9 @@ From the Emotions Analyzer page, the caretaker can tap on the bar graph icon in 
 # Setup
 This app makes use of the following software *(a '' means that this is something you will have to get your own key for)*:
 
-- Firebase: Reading from Firebase Realtime Database and Firebase Storage to **get information for multiple pages** such as Events Log, Pending Requests, Existing Users, Emotions Analyzer, and more.
-- ''Microsoft Face API: For doing the **emotion analysis**. *I have a repository for a [Face Analyzer app](https://github.com/ishaanjav/Face_Analyzer) that does emotion analysis and more. You can check it out [here](https://github.com/ishaanjav/Face_Analyzer)*.
-- ''Google Cloud Platform: For the **Google Maps API Key** which is used to display a Google Maps View in the GPS page of the app for tracking the resident. 
+- [Firebase](https://firebase.google.com/): Reading from Firebase Realtime Database and Firebase Storage to **get information for multiple pages** such as Events Log, Pending Requests, Existing Users, Emotions Analyzer, and more.
+- [''Microsoft Face API](https://azure.microsoft.com/en-us/services/cognitive-services/face/): For doing the **emotion analysis**. *I have a repository for a [Face Analyzer app](https://github.com/ishaanjav/Face_Analyzer) that does emotion analysis and more. You can check it out [here](https://github.com/ishaanjav/Face_Analyzer)*.
+- [''Google Cloud Platform](https://cloud.google.com/): For the **Google Maps API Key** which is used to display a Google Maps View in the GPS page of the app for tracking the resident. 
 
 Of the 3 listed above, you will have to get your own keys for the [**Microsoft Face API**](#microsoft-face-api) and the [**Google Maps API**](#google-maps-api). Do not worry however, since you only have to change 2 lines of code and all the instructions can be found below. **First start with cloning this repository and opening it in Android Studio. Then continue below:**
 
