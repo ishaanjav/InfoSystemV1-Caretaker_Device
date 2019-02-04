@@ -7,7 +7,8 @@ Rather than just providing information about visitors to the patient, the patien
 
 -----
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Full%20App%20Demo.gif" width="250" align ="right">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Existing%20Users.png" height="500" align ="right">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Log%20of%20Events.png" height="500" align ="right">
 
 # Usage
 
