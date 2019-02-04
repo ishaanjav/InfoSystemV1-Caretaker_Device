@@ -74,12 +74,14 @@ This page contains a `ListView` of all events and times recorded by the system. 
 
 Where applicable, the caretaker can tap on a row to view the details of that person. *This is not available for Failed Logins or Visitor Logouts*. Furthermore, the caretaker can apply filters to query for more specific results such as by event type and/or account info *(username, name, email, phone #, etc)*. 
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Emotion%20Analyzer.png" width="205" align="right">
-
 ###### Please note that the phone numbers are made up.
+
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Emotion%20Analyzer.png" width="215" align="right">
+
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Emotion%20Results.png" width="210" align="left">
 
 ## Emotions Analyzer
 Another important page is the Emotions Analyzer page. On this page, the caretaker can view pictures of the resident, the time they were taken, and the emotion analysis for each picture. This information is displayed in a `ListView`. From this, the caretaker can study what the app analyzed to understand how the resident is feeling over a period of time. *It is recommended that at least 5 pictures are taken per day to build up a record of analyzations.*
 
-
+From the Emotions Analyzer page, the caretaker can tap on the bar graph icon in the top `MenuActionBar` to view a bar chart containing the frequencies of emotions. This is especially useful if the caretaker has taken a lot of pictures and wants to obtain a generalization from the collected data. 
 
