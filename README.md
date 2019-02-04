@@ -57,7 +57,7 @@ Features and purposes of this app include, but are not limited to:
 
 <img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Homepage%20Demo.gif" width="205" align="right">
 
-<br/>
+###### The [Setup Section](#setup) can be found [here](#setup).
 
 ## Homepage
 
@@ -84,4 +84,14 @@ Where applicable, the caretaker can tap on a row to view the details of that per
 Another important page is the Emotions Analyzer page. On this page, the caretaker can view pictures of the resident, the time they were taken, and the emotion analysis for each picture. This information is displayed in a `ListView`. From this, the caretaker can study what the app analyzed to understand how the resident is feeling over a period of time. *It is recommended that at least 5 pictures are taken per day to build up a record of analyzations.*
 
 From the Emotions Analyzer page, the caretaker can tap on the bar graph icon in the top `MenuActionBar` to view a bar chart containing the frequencies of emotions. This is especially useful if the caretaker has taken a lot of pictures and wants to obtain a generalization from the collected data. 
+
+-----
+# Setup
+This app makes use of the following software *(a * means that this is something you will have to get your own key for)*:
+
+- Firebase: Reading from Firebase Realtime Database and Firebase Storage to **get information for multiple pages** such as Events Log, Pending Requests, Existing Users, Emotions Analyzer, and more.
+- * Microsoft Face API: For doing the **emotion analysis**. *I have a repository for a [Face Analyzer app](https://github.com/ishaanjav/Face_Analyzer) that does emotion analysis and more. You can check it out [here](https://github.com/ishaanjav/Face_Analyzer)*.
+- * Google Cloud Platform: For the **Google Maps API Key** which is used to display a Google Maps View in the GPS page of the app for tracking the resident. 
+
+
 
