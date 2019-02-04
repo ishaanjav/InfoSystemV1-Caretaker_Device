@@ -6,7 +6,7 @@
 Rather than just providing information about visitors to the patient, the patient's caretaker will also receive useful information through this app. The system not only helps the patient better *understand* who is visiting them, but also keeps a record of information for their caretaker.
 
 -----
-## Usage
+# Usage
 
 The app has multiple pages that serve various purposes. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the app's pages:
 
@@ -22,5 +22,30 @@ The app has multiple pages that serve various purposes. The process of [setting 
 - **Account Info** for updating account information.
 - **About This App**.
 
-### Features of this App
+## Features of this App
+Features and purposes of this app include, but are not limited to:
+
+- Viewing a list of:
+  * All accounts pending requests.
+  * All accounts of existing users
+  * All events and times that the system has logged such as:
+    * Accounts Pending Approval
+    * Accounts Approved
+    * Accounts Declined
+    * Accounts Deleted
+    * Account Info Updates
+    * Visitor Sign-ins
+    * Worker Sign-ins
+    * Logouts
+    * Failed Logins
+- Tracking the patient in case they get lost.
+- Analyzing the patient's emotions.
+- Viewing a record of the patient's emotions along with their picture, in a `ListView` or graph.
+- Easily contacting visitors through their email or phone.
+- Receiving notifications for: 
+  * visitor sign-ins.
+  * failed sign-ins.
+  * account creation by new visitors.
+
+
 
