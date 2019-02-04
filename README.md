@@ -7,12 +7,12 @@ Rather than just providing information about visitors to the patient, the patien
 
 -----
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Existing%20Users.png" height="500" align ="right">
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Log%20of%20Events.png" height="500" align ="right">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Existing%20Users.png" height="450" align ="right">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Log%20of%20Events.png" height="450" align ="right">
 
 # Usage
 
-The app has multiple pages that serve various purposes. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the app's pages:
+The app has multiple pages that serve various purposes. The process of [setting up](#setup) the app can be found [here](#setup). Below is a list of the **app's pages**:
 
 - **Initial Setup**.
 - **Sign In**.
@@ -26,10 +26,10 @@ The app has multiple pages that serve various purposes. The process of [setting 
 - **Account Info** for updating account information.
 - **About This App**.
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Usage%20Demo.gif" width="250" align="right">
-
 ## Features of this App
 Features and purposes of this app include, but are not limited to:
+
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Usage%20Demo.gif" width="300" align="right">
 
 - Viewing a list of:
   * All accounts pending requests.
