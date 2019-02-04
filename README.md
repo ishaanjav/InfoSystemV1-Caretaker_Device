@@ -55,7 +55,7 @@ Features and purposes of this app include, but are not limited to:
   * failed sign-ins.
   * account creation by new visitors.
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Homepage%20Demo.gif" width="205" align="left">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Homepage%20Demo.gif" width="205" align="right">
 
 <br/>
 
@@ -63,7 +63,7 @@ Features and purposes of this app include, but are not limited to:
 
 This page contains links to the rest of the pages in the app. It uses a `ScrollView` to hold the content. Additionally, at the bottom of the page, there is a `RelativeLayout`, that repeatedly fades in and out every few seconds and displays information for the caretaker to view such as the latest login, latest account pending approval, and latest account creation.
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Log%20of%20Events.png" width="205" align="right">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Log%20of%20Events.png" width="205" align="left">
 
 ## Log of Events
 
