@@ -27,9 +27,10 @@ The app has multiple pages that serve various purposes. The process of [setting 
 - **About This App**.
 
 ## Features of this App
-Features and purposes of this app include, but are not limited to:
 
-<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Usage%20Demo.gif" width="300" align="right">
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Usage%20Demo.gif" width="270" align="right">
+
+Features and purposes of this app include, but are not limited to:
 
 - Viewing a list of:
   * All accounts pending requests.
