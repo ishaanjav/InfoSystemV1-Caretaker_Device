@@ -65,10 +65,20 @@ This page contains links to the rest of the pages in the app. It uses a `ScrollV
 
 <img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Log%20of%20Events.png" width="205" align="left">
 
+<br/>
+
 ## Log of Events
 
 This page contains a `ListView` of all events and times recorded by the system. These events include: 
 *Accounts Pending Approval, Accounts Approved, Accounts Declined, Accounts Deleted, Account Info Updates, Visitor Sign-ins, Worker Sign-ins, Logouts, and Failed Logins.*
 
 Where applicable, the caretaker can tap on a row to view the details of that person. *This is not available for Failed Logins or Visitor Logouts*. Furthermore, the caretaker can apply filters to query for more specific results such as by event type and/or account info *(username, name, email, phone #, etc)*. 
+
+###### Please note that the phone numbers are made up.
+
+## Emotions Analyzer
+Another important page is the Emotions Analyzer page. On this page, the caretaker can view pictures of the resident, the time they were taken, and the emotion analysis for each picture. This information is displayed in a `ListView`. From this, the caretaker can study what the app analyzed to understand how the resident is feeling over a period of time. *It is recommended that at least 5 pictures are taken per day to build up a record of analyzations.*
+
+<img src="https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/Emotion%20Analyzer.png" width="205" align="left">
+
 
