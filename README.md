@@ -54,5 +54,8 @@ Features and purposes of this app include, but are not limited to:
   * failed sign-ins.
   * account creation by new visitors.
 
+## Homepage
+This page contains links to the rest of the pages in the app 
+
 
 
