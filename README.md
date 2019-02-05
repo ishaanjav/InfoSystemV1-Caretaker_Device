@@ -139,7 +139,7 @@ The process of getting the API Key for Google Maps is rather lengthy and I will 
 -----
 
 # Other Information System Apps
-This app has many applications whether it be in the homes of individuals with Alzheimer's or dementia, or in residential homes for the elderly. Because of its ability to not only notify a patient and their caretaker of a visitor, but to also provide information about that visitor and maintain a log of events, this app can be of great assistance. 
+This app has many applications whether it be in the homes of individuals with Alzheimer's or dementia, or in residential homes for the elderly. Because of the features that it provides to the patient's caretaker, it makes it far easier for the caretaker to ensure the patient's safety, whether it be through the Emotions Analyzer page or GPS Tracker, or monitor the events happening within the system, like Log of Events and Existing Users.
 
 It is part of my project that I call Info System V1, *(Information System Version 1)*, and it functions alongside 2 other apps:
 
