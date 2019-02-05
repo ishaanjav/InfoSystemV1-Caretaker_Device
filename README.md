@@ -132,6 +132,9 @@ where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive
 **That covers using the Microsoft Face API Key. Now, go to the [Google Maps API](#google-maps-api) section to get the API for Google Maps.**
 
 ## Google Maps API
+The process of getting the API Key for Google Maps is rather lengthy and I will add the steps here once I get the time. Until then, you can follow the following links for the Google Maps Platform's dcoumentation:
+- [**Getting the API Key**](https://developers.google.com/maps/documentation/android-sdk/signup)
+- [**Get Started with the API Key in Android Studio**](https://developers.google.com/maps/documentation/android-sdk/start)
 
 -----
 
