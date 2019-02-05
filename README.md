@@ -114,7 +114,6 @@ Once you have created your account, head to the [Azure Portal](https://portal.az
 
 <p align="center">
   <img width="900" src="https://github.com/ishaanjav/Face_Analyzer/blob/master/Azure-FaceAPI%20Key.PNG">
-  <td>Hi</td>
 </p>
 
 You should now be able to see two different subscription keys that you can use. Follow the additional instructions to see how to use the API Key in the app.
