@@ -134,4 +134,14 @@ where `<LOCATION>` should be replaced with something like `uksouth.api.cognitive
 
 ## Google Maps API
 
+-----
+
+## Other Information System Apps
+This app has many applications whether it be in the homes of individuals with Alzheimer's or dementia, or in residential homes for the elderly. Because of its ability to not only notify a patient and their caretaker of a visitor, but to also provide information about that visitor and maintain a log of events, this app can be of great assistance. 
+
+It is part of my project that I call Info System V1, *(Information System Version 1)*, and it functions alongside 2 other apps:
+
+- [**Visitor Device App Repository:**](https://github.com/ishaanjav/InfoSystemV1-Visitor_Device) The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app, in particular, is used to validate visitors who are logging in to the system. Once a visitor has signed into the app, the Alzheimer's patient and their caretaker are notified.
+- [**Resident App Repository:**](https://github.com/ishaanjav/InfoSystemV1-Resident_Device) The purpose of this Android application is to serve as part of a system of 3 apps that collect information about visits to the house. This app in particular provides patients who have the Alzheimer's disease or dementia with information about visitors so that they can better identify and understand who is visiting them.
+
 
