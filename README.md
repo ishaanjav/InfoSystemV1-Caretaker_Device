@@ -136,6 +136,8 @@ The process of getting the API Key for Google Maps is rather lengthy and I will 
 - [**Getting the API Key**](https://developers.google.com/maps/documentation/android-sdk/signup)
 - [**Get Started with the API Key in Android Studio**](https://developers.google.com/maps/documentation/android-sdk/start)
 
+Once you have the API Key, go to the [`google_maps_api.xml`](https://github.com/ishaanjav/InfoSystemV1-Caretaker_Device/blob/master/app/src/release/res/values/google_maps_api.xml) file in Android Studio and replace `YOUR KEY HERE` on Line 19 with the key that you have obtained.
+
 -----
 
 # Other Information System Apps
